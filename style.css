@@ -1,0 +1,237 @@
+body{
+    display: flex;
+    margin: 0px;
+    flex-direction: column;
+}
+.navbar{
+    flex-direction: column;
+    display: flex;
+    background-image: url("IMG_20240120_095921991_MP.png");
+    padding-top:20px; padding-bottom: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+}
+.navbar a{
+    text-decoration: none;
+    color:black;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    display: flex;
+    padding-left:2%
+}
+.logo img{
+    max-height:100px;
+    max-width: 100px;
+    object-fit:scale-down;
+}
+.name{
+    padding-top:40px;
+    padding-left: 3%; padding-right: 3%;
+    font-weight:bold;
+    font-size: 30px;
+}
+.title{
+    font-size: 40px;
+    font-weight:bold;
+    margin-left:5%;
+    margin-top: 15%;
+}
+.nav-link-container{
+    padding-top: 45px;
+    flex-direction: row;
+    display: flex;
+    padding-left: 20px;
+}
+.nav-link{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.main-container{
+    display: flex;
+    background-color: rgb(81, 168, 114);
+    flex-direction: column;
+}
+.my-slides img{
+    display: flex;
+    height: 400px;
+    min-width: 100%;
+    object-fit: cover;
+}
+.slideshow-text{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -10%);
+    text-align: left;
+    color:white;
+    font-size: 60px;
+}
+.mission-statement-container{
+    flex-direction: column;
+}
+.mission-title{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.mission-paragraph{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    padding-left:20%;
+    padding-right:20%;
+}
+.mission-statement-container:hover{
+    color: rgb(0,0,0);
+    transition: 1s;
+}
+.mission-statement-container{
+    color: rgb(60,60,60);
+    transition: 1s;
+}
+.battery-recycling-container{
+    background-color: rgb(115, 143, 120);
+}
+.battery-info-container{
+    margin:50px;
+}
+.battery-info-title{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.battery-info{
+    margin-top:50px;
+}
+.info-row{
+    display: flex;
+    flex-direction:row;
+}
+.place-container{
+    display: flex;
+    background-color: rgb(210,210,210);
+    flex-direction: row;
+    max-width: 45%;
+    margin-right:10%;
+    margin-bottom: 50px;
+}
+.picture-place{
+    max-width:50%;
+    object-fit: cover;
+}
+.title-place{
+    display: flex;
+    font-size:22px;
+    justify-content: center;
+    margin-right:10%;
+    margin-left: 10%;
+}
+.address-place{
+    margin-left:20%;
+    margin-right:20%;
+    display: flex;
+    font-size:18px;
+    justify-content: center;
+}
+.footer{
+    background-color:rgb(50,50,50);
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.footer-text{
+    color:white;
+    padding-left:5%;
+}
+.footer-text a{
+    text-decoration: none;
+    color: white;
+}
+
+/* About Us Page */
+
+.about-us-title{
+    display: flex;
+    font-size:40px;
+    margin-top:35px;
+    font-weight: bold;
+    border:0px;
+    border-bottom: 3px;
+    border-style: dashed;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.person-container{
+    margin-left: 7%;
+    margin-top: 50px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.person-picture{
+    max-width:30%;
+    object-fit:contain;
+}
+
+.person-text{
+    width: 60%;
+    margin-left: 5%;
+}
+.person-name{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+
+/* Battery Recycling Page */
+
+.impact-container {
+    display: flex;
+    background-color: rgb(115, 143, 120);
+    flex-direction: row;
+}
+.impact-statement{
+    margin-top: 75px;
+    margin-bottom: 75px;
+    max-width:45%;
+    padding-left: 5%;
+}
+.impact-title{
+    font-size: 30px;
+    text-decoration: underline;
+    text-underline-position: auto;
+    text-shadow:0cqi;
+}
+.impact-text{
+    font-size: 20px;
+}
+.stats-container{
+    padding-left: 5%;
+    margin-top: 75px;
+}
+.stat{
+    border: 0px;
+    border-top: 2px;
+    border-color:black;
+    border-style: dashed;
+    display: flex;
+    flex-direction: row;
+}
+.stat-number{
+    font-size: 30px;
+    color:black;
+    font-weight: 900;
+}
+.stat-unit{
+    font-size: 30px;
+    padding-left: 10%;
+}
