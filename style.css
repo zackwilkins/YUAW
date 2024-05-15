@@ -32,10 +32,14 @@ body{
     display: flex;
     margin-right: 5%;
 }
+.title {
+    padding-top: 13%;
+}
 .right-side{
     flex-direction: row;
     display: flex;
     justify-content: right;
+    padding-top: 2.7%;
     width: 50%;
 }
 .logo{
